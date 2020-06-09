@@ -1,0 +1,46 @@
+html,
+body,
+spiderum,
+spiderum > .wrapper {
+    height: 100%;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: NotoSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5385615384;
+    color: #34495e;
+    background: #f2f2f2;
+    -webkit-font-smoothing: antialiased;
+}
+navbar {
+    display: block;
+    padding-bottom: 105px;
+}
+#header {
+    position: absolute;
+    width: 100%;
+    z-index: 600;
+    top: 0;
+}
+#header .header-upper {
+    height: 65px;
+    background: #fff;
+    z-index: 600;
+    width: 100%;
+    position: relative;
+}
+.outer-container,
+.inner-container,
+.feed-container,
+.post-container,
+.message-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
